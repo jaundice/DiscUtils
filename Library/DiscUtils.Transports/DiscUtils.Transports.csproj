@@ -5,7 +5,7 @@
     <Description>DiscUtils, meta-package with transports, such as iSCSI and NFS</Description>
     <AssemblyTitle>DiscUtils.Transports</AssemblyTitle>
     <Authors>Kenneth Bell;LordMike</Authors>
-    <TargetFrameworks>netstandard1.5;net20;net40;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard1.5;net20;net40;net45</TargetFrameworks>
     <AssemblyName>DiscUtils.Transports</AssemblyName>
     <PackageId>DiscUtils.Transports</PackageId>
     <PackageTags>DiscUtils;iSCSI;NFS</PackageTags>

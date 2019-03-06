@@ -5,7 +5,7 @@
     <Description>DiscUtils Registry</Description>
     <AssemblyTitle>DiscUtils.Registry</AssemblyTitle>
     <Authors>Kenneth Bell;LordMike</Authors>
-    <TargetFrameworks>netstandard1.5;net20;net40;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard1.5;net20;net40;net45</TargetFrameworks>
     <AssemblyName>DiscUtils.Registry</AssemblyName>
     <PackageId>DiscUtils.Registry</PackageId>
     <PackageTags>DiscUtils;Registry</PackageTags>
@@ -17,6 +17,11 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.5' ">
+    <PackageReference Include="Microsoft.Win32.Registry" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Win32.Registry.AccessControl" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
     <PackageReference Include="Microsoft.Win32.Registry" Version="4.3.0" />
     <PackageReference Include="Microsoft.Win32.Registry.AccessControl" Version="4.3.0" />
   </ItemGroup>

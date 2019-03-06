@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+#if !NET20
+using System.Linq;
+#endif
 using System.Reflection;
 using System.Runtime.InteropServices;
 
@@ -64,7 +67,7 @@ namespace DiscUtils.CoreCompat
         public static IEnumerable<Attribute> GetCustomAttributes(Type type, Type attributeType, bool inherit)
         {
 #if NETCORE
-            return type.GetTypeInfo().GetCustomAttributes(attributeType, inherit);
+            return type.GetTypeInfo().GetCustomAttributes(attributeType, inherit).Cast<Attribute>();
 #else
             return Attribute.GetCustomAttributes(type, attributeType);
 #endif

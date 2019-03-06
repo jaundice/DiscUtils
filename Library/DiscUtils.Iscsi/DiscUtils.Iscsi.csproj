@@ -5,7 +5,7 @@
     <Description>DiscUtils iSCSI</Description>
     <AssemblyTitle>DiscUtils.Iscsi</AssemblyTitle>
     <Authors>Kenneth Bell;LordMike</Authors>
-    <TargetFrameworks>netstandard1.5;net20;net40;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard1.5;net20;net40;net45</TargetFrameworks>
     <AssemblyName>DiscUtils.Iscsi</AssemblyName>
     <PackageId>DiscUtils.Iscsi</PackageId>
     <PackageTags>DiscUtils;iSCSI</PackageTags>

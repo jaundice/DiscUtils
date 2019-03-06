@@ -31,6 +31,9 @@
   <!-- Constants -->
   <PropertyGroup>
     <DefineConstants Condition="'$(TargetFramework)' == 'netstandard1.5'">$(DefineConstants);NETCORE</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netstandard2.0'">$(DefineConstants);NETCORE</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netcoreapp1.1'">$(DefineConstants);NETCORE</DefineConstants>
+    <DefineConstants Condition="'$(TargetFramework)' == 'netcoreapp2.2'">$(DefineConstants);NETCORE</DefineConstants>
     <DefineConstants Condition="'$(TargetFramework)' == 'net20'">$(DefineConstants);NET20</DefineConstants>
     <DefineConstants Condition="'$(TargetFramework)' == 'net40'">$(DefineConstants);NET40</DefineConstants>
     <DefineConstants Condition="'$(TargetFramework)' == 'net45'">$(DefineConstants);NET45</DefineConstants>

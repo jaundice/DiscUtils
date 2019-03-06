@@ -5,7 +5,7 @@
     <Description>DiscUtils LVM</Description>
     <AssemblyTitle>DiscUtils.Lvm</AssemblyTitle>
     <Authors>Bianco Veigel</Authors>
-    <TargetFrameworks>netstandard1.5;net20;net40;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard1.5;net20;net40;net45</TargetFrameworks>
     <AssemblyName>DiscUtils.Lvm</AssemblyName>
     <PackageId>DiscUtils.Lvm</PackageId>
     <PackageTags>DiscUtils;Lvm</PackageTags>

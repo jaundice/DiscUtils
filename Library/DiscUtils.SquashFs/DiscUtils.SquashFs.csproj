@@ -5,7 +5,7 @@
     <Description>DiscUtils SquashFs filesystem parser</Description>
     <AssemblyTitle>DiscUtils.SquashFs</AssemblyTitle>
     <Authors>Kenneth Bell;LordMike</Authors>
-    <TargetFrameworks>netstandard1.5;net20;net40;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard1.5;net20;net40;net45</TargetFrameworks>
     <AssemblyName>DiscUtils.SquashFs</AssemblyName>
     <PackageId>DiscUtils.SquashFs</PackageId>
     <PackageTags>DiscUtils;Filesystem;SquashFs</PackageTags>
